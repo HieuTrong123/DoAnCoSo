@@ -10,7 +10,7 @@ export default function AvtImg() {
         <img onClick={e => { e.stopPropagation() }} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtIj019M0W5cXnC6dcM4SefMwCEhfCBmwvug&usqp=CAU' />
     </>)
     return (
-        <div>
+        <div style={{ height: '200px' }}>
             <Model color='#00000099' mode={view} children={element} handleSettings={HandleClick} />
             <div onClick={HandleClick} className='avtbox__img'>
                 <div className='contain'>
