@@ -1,0 +1,33 @@
+.table{
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+.table__box{
+    border: 1px solid #b3afaf;
+    border-radius: 4px;
+}
+.table__numble{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.table__numble i{
+    width: auto;
+}
+.table__numble div{
+    padding: 4px 10px;
+    border-radius: 30px;
+    border: 1px solid #b3afaf;
+    font-size: 19px;
+    
+}
+.numble__unactive{
+    opacity: 0.4;
+}
+.numble__active{
+    background-color: var(--green-4);
+    color: #f0f0f0;
+}

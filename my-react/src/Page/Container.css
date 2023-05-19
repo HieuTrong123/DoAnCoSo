@@ -1,0 +1,10 @@
+#Container__page{
+    display: flex;
+    transition: margin 600ms;
+    
+
+}
+.Container__page-Content{
+    flex: 1;
+    margin-top: var(--header);
+}

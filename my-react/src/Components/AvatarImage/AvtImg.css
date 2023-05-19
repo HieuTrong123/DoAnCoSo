@@ -1,0 +1,29 @@
+.avtbox__img{
+    border-radius: 500px;
+    overflow: hidden;
+    display:inline-flex;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 28px var(--shadow);
+    border: 1px solid var(--shadow);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtIj019M0W5cXnC6dcM4SefMwCEhfCBmwvug&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+.contain{
+    display: none;
+}
+.contain i{
+    width: auto;
+    margin-right: 4px;
+}
+.avtbox__img:hover{
+    background-image: linear-gradient(0deg,rgba(237, 233, 233, 0.6),rgba(237, 233, 233, 0.6)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtIj019M0W5cXnC6dcM4SefMwCEhfCBmwvug&usqp=CAU);
+}
+.avtbox__img:hover .contain{
+    display: block;
+}

@@ -1,0 +1,9 @@
+.title__list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title__item{
+    padding: 24px 0;
+    flex: 1;
+    padding-left: 24px;
+}

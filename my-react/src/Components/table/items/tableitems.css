@@ -1,0 +1,25 @@
+.items__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid #b3afaf;
+    align-items: center;
+}
+.items__item{
+    flex: 1;
+    padding: 24px 0;
+    padding-left: 24px;
+}
+.items__list:hover{
+    background-color: #09866633;
+    cursor: pointer;
+}
+.items__item button:hover{
+    color: #f0f0f0;
+    background-color: var(--green-4);
+}
+.items__item button{
+    padding: 4px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}

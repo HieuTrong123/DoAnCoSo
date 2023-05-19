@@ -1,0 +1,29 @@
+import React from 'react'
+import './userif.css'
+import FormVLD from '../../Components/Form/FormVLD'
+import AvtImg from '../../Components/AvatarImage/AvtImg'
+export default function Userif() {
+    return (
+        <div className='changepass Container__box'>
+            <div className='changepass__avt'>
+                <p className='changepass__title'>Ảnh đại diện</p>
+                <AvtImg />
+                <div className='change__avt'>
+                    <i class="fa-solid fa-camera"></i>
+                    <p>CẬP NHẬT ẢNH</p>
+                </div>
+            </div>
+            <div className='changepass__form'>
+                <p className='changepass__title'>Thông tin</p>
+                <form>
+                    <FormVLD name='Email *' type='text' />
+                    <FormVLD name='Tên đăng nhập *' type='text' />
+                    <FormVLD name='Họ và tên lót *' type='text' />
+                    <FormVLD name='Tên *' type='text' />
+                    <FormVLD name='SĐT *' type='text' />
+                </form>
+                <button className='changepass__btn'><i class="fa-solid fa-floppy-disk"></i>Lưu</button>
+            </div>
+        </div>
+    )
+}

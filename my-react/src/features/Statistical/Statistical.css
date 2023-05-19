@@ -1,0 +1,89 @@
+
+.Container__title{
+  margin-bottom: 24px;
+}
+.Container__box{
+  background-color: #fff;
+  
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.Statistical__list{
+  
+  display: flex;
+  align-items: baseline;
+
+}
+input[type="checkbox"]{
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  
+}
+input[type="checkbox"]+span{
+  margin-left: 8px;
+}
+.Statistical__title{
+margin-right: 10px;
+}
+.Statistical__item{
+
+}
+.Statistical__item+.Statistical__item{
+  margin-left: 20px;
+}
+.Statistical__box{
+  border-radius: 14px;
+  border: 1px solid #d1cccc;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px var(--shadow);
+  margin-top: 40px;
+}
+.Statistical__box-item{
+  border-radius: 8px;
+  border: 1px solid #d1cccc;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+.Statistical__box-item+.Statistical__box-item{
+  margin-left: 14px;
+}
+.box__item+.box__item{
+  margin-top: 24px;
+}
+.box__title{
+  padding-bottom: 24px;
+}
+.box__title span{
+  font-weight: 700;
+}
+.Statistical__box-item p{
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+  transform: translateY(-120%);
+  padding: 0 4px;
+}
+.Statistical__box h3{
+  
+  display: inline-block;
+  /* transform: translate(20%, -100%); */
+  background-color: #fff;
+  padding: 0 4px;
+  margin-bottom: 24px;
+}
+.Statistical__btn{
+  margin-left: auto;
+  margin-top: 24px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  color: #f0f0f0;
+  background-color: var(--green-4);
+  cursor: pointer;
+}

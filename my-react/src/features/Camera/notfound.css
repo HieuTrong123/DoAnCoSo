@@ -1,0 +1,19 @@
+.notfound{
+    color: var(--green-7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.notfound h3{
+    font-size: 200px;
+}
+.notfound button{
+    background-color: var(--green-4);
+    color: #f0f0f0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    margin-top: 45px;
+}

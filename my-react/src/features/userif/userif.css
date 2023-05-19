@@ -1,0 +1,7 @@
+.change__avt{
+    display: inline-flex;
+    border: 1px solid var(--shadow);
+    border-radius: 4px;
+    padding: 8px 15px 8px 0;
+   cursor: pointer;
+}

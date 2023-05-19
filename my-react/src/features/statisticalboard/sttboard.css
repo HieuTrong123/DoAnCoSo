@@ -1,0 +1,30 @@
+.Sttboard__btn{
+    background-color: var(--green-4);
+    color: #f0f0f0;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-left: auto;
+}
+.sstboard__head{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--shadow);
+}
+.Sttboard__date{
+    padding-left: 14px;
+    font-size: 17px;
+}
+.sstboard__container{
+    display:flex;
+    flex-direction: row;
+    padding-top: 28px;
+}
+.sstboard__Chart{
+    flex: 1;
+}
+.sstboard__table{
+    flex: 2;
+}

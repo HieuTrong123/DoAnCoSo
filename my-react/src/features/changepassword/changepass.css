@@ -1,0 +1,41 @@
+.changepass{
+    display: flex;
+    flex-direction: row;
+}
+/* .changepass__form i{
+    color: var(--green-4);
+    
+} */
+.changepass__avt{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+.changepass__form{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+.changepass__btn{
+    background-color: var(--green-4);
+    color: #f0f0f0;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-top: 24px;
+}
+.changepass__btn i{
+    color: #f0f0f0;
+    width: auto;
+    margin-right: 10px;
+    text-align: start;
+}
+.changepass__title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}

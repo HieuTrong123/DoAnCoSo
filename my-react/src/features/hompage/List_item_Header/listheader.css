@@ -1,0 +1,33 @@
+.Header__list{
+    display: flex;
+    justify-content: space-between;
+}
+.Header__list h3{
+    font-weight: 400;
+}
+.Header__list li{
+    flex: 1;
+    
+}
+.Header__list li+li{
+    margin-left: var(--margin);
+}
+.Header__list div *{
+    font-size: 32px;
+    padding: 8px 0 32px 0;
+}
+.Header__list div i{
+    color: var(--green-4);
+    margin-right: 14px;
+}
+.Header__list div span{
+    font-weight: 600;
+}
+.Header__list p{
+    text-align: end;
+    color: var(--green-4);
+    
+}
+.Header__list p span{
+    cursor: pointer;
+}
