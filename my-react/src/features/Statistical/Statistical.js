@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './Statistical.css'
 import React, { useState } from 'react'
 export default function Statistical() {
-
+    document.title = "Thống kê"
     const [isActiveDate, setisActiveDate] = useState(true);
     const [isActiveTime, seTisActiveTime] = useState(false);
     const [isActiveRegion, setIsActiveRegion] = useState(false);

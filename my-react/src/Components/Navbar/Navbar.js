@@ -23,21 +23,21 @@ export default function Navbar(props) {
                     <ul className='settings__list' style={modesettings ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
 
                         <Link to={'/info'}>
-                            <li onClick={() => { document.title = "Thông tin tài khoản" }} className='settings__item'>
+                            <li className='settings__item'>
                                 <i className='fa-solid fa-user-large'></i>
                                 <span className='settings__text'>Thông tin tài khoản</span>
                             </li>
                         </Link>
 
                         <Link to={'/ChangePassword'}>
-                            <li onClick={() => { document.title = "Đổi mật khẩu" }} className='settings__item'>
+                            <li className='settings__item'>
                                 <i class="fa-solid fa-key"></i>
                                 <span className='settings__text'>Đổi mật khẩu</span>
                             </li>
                         </Link>
 
                         <Link to={'/login'}>
-                            <li onClick={() => { document.title = "Đăng nhập" }} className='settings__item'>
+                            <li className='settings__item'>
                                 <i class="fa-solid fa-right-from-bracket"></i>
                                 <span className='settings__text'>Đăng xuất</span>
                             </li>

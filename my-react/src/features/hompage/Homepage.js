@@ -5,6 +5,7 @@ import ChartPie from './components/Chart/Chart__pie/ChartPie';
 import ChartRow from './components/Chart/Chart_row/ChartRow';
 import ListHeader from './List_item_Header/ListHeader';
 export default function Homepage() {
+    document.title = "Trang chủ"
     const data = [
         {
             name: 'Số lượng xe vào', value: 50,
@@ -61,6 +62,7 @@ export default function Homepage() {
     );
     return (
         <div>
+
             <ListHeader item_Headers={item_Headers} />
             <div className='Chart__Box'>
                 <ChartPie data={data} Root={Root} Label={Label} />

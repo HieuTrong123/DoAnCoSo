@@ -4,6 +4,7 @@ import Footer from '../../Components/Footer/Footer'
 import FormVLD from '../../Components/Form/FormVLD'
 
 function Login() {
+    document.title = "Đăng nhập"
     return (
         <div className='login__box'>
 

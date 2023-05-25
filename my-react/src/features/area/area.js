@@ -1,8 +1,8 @@
 import React from 'react'
 import './area.css'
 import Table from '../../Components/table/Table'
-import TableTitle from '../../Components/table/title/TableTitle'
 export default function Area() {
+    document.title = "Khu vực"
     const table =
     {
         title: 'Danh sách các khu vực',
@@ -26,6 +26,7 @@ export default function Area() {
     }
     return (
         <div className='Container__box'>
+
             <Table title={table.title} header={table.header} items={table.items} />
         </div>
     )

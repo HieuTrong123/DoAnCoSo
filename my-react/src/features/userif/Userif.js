@@ -3,6 +3,7 @@ import './userif.css'
 import FormVLD from '../../Components/Form/FormVLD'
 import AvtImg from '../../Components/AvatarImage/AvtImg'
 export default function Userif() {
+    document.title = "Thông tin tài khoản"
     return (
         <div className='changepass Container__box'>
             <div className='changepass__avt'>

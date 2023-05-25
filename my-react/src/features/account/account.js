@@ -2,6 +2,7 @@ import React from 'react'
 import './account.css'
 import Table from '../../Components/table/Table'
 export default function Account() {
+    document.title = "Tài khoản"
     const table =
     {
         title: 'Danh sách các tài khoản',
@@ -37,6 +38,7 @@ export default function Account() {
     }
     return (
         <div className='Container__box'>
+
             <Table title={table.title} header={table.header} items={table.items} />
         </div>
     )

@@ -16,28 +16,28 @@ export default function Sidebar(props) {
     setActiveAccount(false)
     setActiveArea(false)
     setActiveStatistical(false)
-    document.title = "Trang chủ"
+
   }
   function HandleActiveAccount() {
     setActiveHomepage(false)
     setActiveAccount(true)
     setActiveArea(false)
     setActiveStatistical(false)
-    document.title = "Tài khoản"
+
   }
   function HandleActiveArea() {
     setActiveHomepage(false)
     setActiveAccount(false)
     setActiveArea(true)
     setActiveStatistical(false)
-    document.title = "Khu vực"
+
   }
   function HandleActiveStatistical() {
     setActiveHomepage(false)
     setActiveAccount(false)
     setActiveArea(false)
     setActiveStatistical(true)
-    document.title = "Thống kê"
+
   }
   return (
     <div className='Sidebar' style={props.modesidebar ? { width: 'var( --sidebar )' } : { width: 0 }}>
@@ -52,7 +52,7 @@ export default function Sidebar(props) {
           <li onClick={HandleActiveArea} className={ActiveArea ? 'sidebar__item Active' : 'sidebar__item'}><i class="fa-solid fa-city"></i><span>Khu vực</span></li>
         </Link>
         <Link to={"/notfound"}>
-          <li onClick={() => { document.title = "Camera" }} className='sidebar__item'><i class="fa-solid fa-camera"></i><span>Camera</span></li>
+          <li className='sidebar__item'><i class="fa-solid fa-camera"></i><span>Camera</span></li>
         </Link>
         <Link to={"/Statistical"}>
           <li onClick={HandleActiveStatistical} className={ActiveStatistical ? 'sidebar__item Active' : 'sidebar__item'}><i class="fa-solid fa-chart-simple"></i><span>Thống kê</span></li>
