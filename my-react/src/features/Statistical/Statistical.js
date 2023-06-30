@@ -59,7 +59,9 @@ export default function Statistical() {
                                         <div className='Statistical__list'>
                                             <div className='Statistical__box-item'>
                                                 <p>Từ ngày</p>
-                                                <i className="fa-regular fa-calendar"></i>
+                                                <i className="fa-regular fa-calendar">
+                                                    {/* <input type='date' /> */}
+                                                </i>
                                             </div>
                                             <div className='Statistical__box-item'>
                                                 <p>Đến ngày</p>

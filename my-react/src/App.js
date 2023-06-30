@@ -5,7 +5,7 @@ import { RouterProvider } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <RouterProvider router={Router}></RouterProvider>
+      <RouterProvider router={Router} />
     </div>
   );
 }

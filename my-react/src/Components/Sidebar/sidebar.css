@@ -37,14 +37,14 @@
     background-color: #f0f0f0;
     cursor: pointer;
   }
-  .Active{
+  .active{
     background-color:var(--green-4);
     color: #f0f0f0;
   }
-  .Active i{
+  .active i{
     color: #f0f0f0;
   }
-  .Active:hover{
+  .active:hover{
     background-color:var(--green-4);
   }
   

@@ -12,7 +12,7 @@ function Login() {
                 <i className="fa-solid fa-lock"></i>
                 <p className='login__title'>Đăng nhập</p>
                 <FormVLD name='Usename *' type='text' />
-                <FormVLD name='Password *' type='password' icon='fa-sharp fa-solid fa-eye-slash' />
+                <FormVLD name='Password *' type='password' icon='fa-sharp fa-solid fa-eye' />
                 <button className='login__btn'>Login</button>
                 <Footer />
             </div>

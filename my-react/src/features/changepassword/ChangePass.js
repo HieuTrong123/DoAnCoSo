@@ -14,8 +14,8 @@ export default function ChangePass() {
                 <p className='changepass__title'>Thay đổi mật khẩu</p>
                 <form>
                     <FormVLD name='Mật khẩu cũ' type='text' />
-                    <FormVLD name='Mật khẩu mới' type='password' icon='fa-sharp fa-solid fa-eye-slash' />
-                    <FormVLD name='Nhập lại mật khẩu' type='password' icon='fa-sharp fa-solid fa-eye-slash' />
+                    <FormVLD name='Mật khẩu mới' type='password' icon='fa-sharp fa-solid fa-eye' />
+                    <FormVLD name='Nhập lại mật khẩu' type='password' icon='fa-sharp fa-solid fa-eye' />
                 </form>
                 <button className='changepass__btn'><i class="fa-solid fa-floppy-disk"></i>Lưu</button>
             </div>

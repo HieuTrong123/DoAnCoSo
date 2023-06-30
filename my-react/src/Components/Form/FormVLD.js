@@ -19,7 +19,7 @@ export default function FormVLD(props) {
             <p className={focusInput ? 'Form__Name Form__Name-Active' : 'Form__Name'}>{props.name}</p>
             <div className={focusInput ? 'Form__input-Active Form__input' : 'Form__input'}>
                 <input onFocus={HandleFocus} onBlur={HandleBlur} type={(props.type === 'password' && modePassword) ? 'text' : props.type}></input>
-                <i onClick={HandleClick} className={(props.type === 'password' && modePassword) ? 'fa-sharp fa-solid fa-eye' : props.icon} style={props.icon ? { display: 'block' } : { display: 'none' }}></i>
+                <i onClick={HandleClick} className={(props.type === 'password' && modePassword) ? 'fa-sharp fa-solid fa-eye-slash' : props.icon} style={props.icon ? { display: 'block' } : { display: 'none' }}></i>
             </div>
         </div>
     )

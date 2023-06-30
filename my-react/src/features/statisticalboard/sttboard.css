@@ -28,3 +28,66 @@
 .sstboard__table{
     flex: 2;
 }
+.element__model{
+    background-color: #f0f0f0;
+    padding: 20px 40px 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 8px;
+}
+.element__title{
+    border-bottom: 1px solid #b3aeae;
+    padding: 10px 0 28px 0;
+}
+.element__area{
+    word-wrap: normal;
+    width: 100px;
+    color: #f0f0f0;
+    padding: 20px 12px;
+    text-align: center;
+    position: relative;
+    background-color: var(--green-4);
+    height: 100%;
+    transform: translate(-10%,-37%);
+    border-radius: 8px 8px 0 0;
+}
+.element__area::after{
+    content: "";
+    position: absolute;
+    display: block;
+    border-width:25px 50px;
+    border-color: transparent transparent transparent var(--green-4);
+    border-style: solid;
+    top: 100%;
+    transform: translate(-12%,-50%);
+}
+.element__area::before{
+    content: "";
+    position: absolute;
+    display: block;
+    border-width:25px 50px;
+    border-color: transparent var(--green-4) transparent transparent;
+    border-style: solid;
+    top: 100%;
+    transform: translate(-11%,-50%);
+}
+.element__inf{
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #b3aeae;
+    padding-bottom: 25px;
+}
+.inf__name{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.inf__name span{
+    font-weight: 800;
+    font-size: 30px;
+}
+.element__inf i{
+    width: auto;
+}

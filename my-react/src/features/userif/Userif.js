@@ -9,10 +9,20 @@ export default function Userif() {
             <div className='changepass__avt'>
                 <p className='changepass__title'>Ảnh đại diện</p>
                 <AvtImg />
-                <div className='change__avt'>
+                {/* <div className='change__avt'>
                     <i class="fa-solid fa-camera"></i>
                     <p>CẬP NHẬT ẢNH</p>
-                </div>
+                </div> */}
+                <label className='change__avt' for="image_uploads">
+                    <i class="fa-solid fa-camera"></i>
+                    <p>CẬP NHẬT ẢNH</p></label>
+                <input
+                    style={{ opacity: 0 }}
+                    type="file"
+                    id="image_uploads"
+                    name="image_uploads"
+                // onClick={(e) => { e.preventDefault(); }}
+                />
             </div>
             <div className='changepass__form'>
                 <p className='changepass__title'>Thông tin</p>
